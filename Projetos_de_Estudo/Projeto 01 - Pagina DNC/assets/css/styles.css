@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+header #banner {
+    width: 100%;
+    max-height: 560px;
+    position: relative;
+}
+
+header #logo {
+    width: 125px;
+    height: 62px;
+    margin: 55px;
+    position: absolute;
+    z-index: 10;
+}
+
+header .text {
+    width: 540px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    margin: 185px 0 0 170px;
+    color: #fff;
+}
+
+header .text .title {
+    font-size: 40px;
+    line-height: 51.4px;
+    padding-bottom: 30px;
+}
+
+header .text .subtitle {
+    font-size: 20px;
+    line-height: 30px;
+}
