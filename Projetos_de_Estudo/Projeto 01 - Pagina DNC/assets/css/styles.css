@@ -108,7 +108,7 @@ menu li {
 .deposition .cards-carousel {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin: 50px 0 0 100px;
 }
 
 .deposition .cards-carousel .card {
@@ -139,6 +139,12 @@ menu li {
 
 #left {
     transform: rotate(180deg);
+    display: none;
+}
+
+#left, 
+#right {
+    cursor: pointer;
 }
 
 #card-sam {
