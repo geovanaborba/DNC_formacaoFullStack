@@ -48,3 +48,16 @@ header .text .subtitle {
     font-size: 20px;
     line-height: 30px;
 }
+
+menu {
+    display: flex;
+    justify-content: space-evenly;
+    height: 170px;
+    background-color: #EAECE5;
+}
+
+menu li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
