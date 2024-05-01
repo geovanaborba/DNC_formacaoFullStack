@@ -89,3 +89,58 @@ menu li {
     padding-bottom: 20px;
     color: #383838;
 }
+
+.deposition {
+    display: flex;
+    flex-direction: column;
+    background-color: #247BA0;
+    padding: 80px 0;
+}
+
+.deposition h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #EAECE5;
+}
+
+.deposition .cards-carousel {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.deposition .cards-carousel .card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 532px;
+    height: 172px;
+    padding: 32px 40px;
+    border-radius: 16px;
+    gap: 20px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #383838;
+}
+
+.deposition .cards-carousel .card img {
+    border-radius: 50%;
+}
+
+.deposition .cards-carousel .card p {
+    padding-bottom: 15px;
+}
+
+.deposition .cards-carousel .card span {
+    font-weight: 700;
+}
+
+#left {
+    transform: rotate(180deg);
+}
+
+#card-sam {
+    display: none;
+}
