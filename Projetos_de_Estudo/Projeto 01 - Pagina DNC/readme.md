@@ -11,7 +11,7 @@
 
 📌 Foi integrado [Sheet Monkey](https://sheetmonkey.io/pt-br) ao formulário, para criação de tabela diretamente ao Google Sheets, com dados de potenciais usuários.
 
-<img src="./readme/form.jpg">
+<img src="./readme/form.jpg" width="60%">
 
 <img src="./readme/formDocs.jpg">
 
