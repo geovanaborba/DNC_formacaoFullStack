@@ -58,3 +58,33 @@ menu li span {
     font-size: 40px;
     font-weight: 600;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    margin: 80px 0px 80px 50px;
+    gap: 20px;
+}
+
+main .main-text {
+    width: 735px;
+}
+
+main .main-text h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+main .main-text p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+main img {
+    width: 510px;
+    height: 605px;
+    border-radius: 30px;
+}
