@@ -29,6 +29,7 @@ header {
     flex-direction: column;
     justify-content: center;
     padding-left: 62px;
+    gap: 20px;
 }
 
 header h1 {
@@ -49,6 +50,7 @@ menu {
     background-color: var(--menu);
     display: flex;
     justify-content: space-evenly;
+    padding: 100px;
     align-items: center;
     line-height: 28px;
     font-size: 20px;
@@ -87,4 +89,62 @@ main img {
     width: 510px;
     height: 605px;
     border-radius: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark);
+    padding: 80px 0;
+    gap: 50px;
+    font-family: Raleway;
+}
+
+form h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--white);
+}
+
+form input {
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: var(--white);
+    color: var(--dark);
+    border:2px solid transparent;
+    outline: none;
+}
+
+form input::placeholder {
+    color: #0000004D;
+}
+
+form input:focus {
+    border: 3px solid var(--orange);
+}
+
+form button {
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--orange);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+form button:hover {
+    background-color: #13536e;
+    transition: ease-in-out .5s;
 }
