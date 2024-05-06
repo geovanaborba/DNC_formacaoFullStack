@@ -13,7 +13,7 @@ Para avaliar as habilidades dos candidatos, ele decidiu propor um desafio: eles 
 
 ### 🎨 [Layout proposto no Figma](https://www.figma.com/file/0FRiZbs30dfSniazKiM1rM/Desafio-1---Desenvolva-uma-Landing-Page?type=design&node-id=1-3&mode=design&t=VlOqRT5iFYR3Yl0D-0)
 
-### [Deploy Netlify](https://dnc-desafio01.netlify.app/)
+### 🔷 [Deploy Netlify](https://dnc-desafio01.netlify.app/)
 
 ### 🚀 [Deploy GitHub Pages](https://geovanaborba.github.io/DNC_formacaoFullStack/Desafios/Desafio%2001%20-%20Landing%20Page/index.html)
 
@@ -24,7 +24,7 @@ Para avaliar as habilidades dos candidatos, ele decidiu propor um desafio: eles 
 
 📌 Foi integrado [Sheet Monkey](https://sheetmonkey.io/pt-br) ao formulário, para criação de tabela diretamente ao Google Sheets, com dados de potenciais usuários.
 
-📌 Adicionada API Scroll Reveal para animação de deslizamento ao título principal.
+📌 Adicionada API [Scroll Reveal](https://scrollrevealjs.org/) para animação de deslizamento ao título principal.
 
 <br>
 
