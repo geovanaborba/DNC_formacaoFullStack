@@ -1,0 +1,45 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    align-items: center;
+}
+
+header {
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #070F18;
+}
+
+menu {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 27px;
+
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+}
+
+menu a {
+    color: #3F3D56;
+    text-decoration: none;
+}
+
+menu a:hover {
+    color: black;
+}
